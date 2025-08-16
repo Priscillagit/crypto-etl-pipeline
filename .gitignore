@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# --- Virtual environments ---
+venv/
+.env/
+.venv/
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+
+# --- Databases ---
+*.db
+
+# --- OS / IDE files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- CSV exports (optional, keep only raw sample data if needed) ---
+data/*.csv
+!data/sample.csv   # example: keep a small sample file if you want
