@@ -54,12 +54,13 @@ Run the pipeline:
 python pipeline.py
 
 📊 Example Output
-
 Database
+
 Table: crypto_prices
 Columns: timestamp, id, symbol, name, current_price, market_cap, total_volume, price_change_24h, price_change_pct_24h
 
 Exports:
+
 data/exports/latest_snapshot.csv
 data/exports/top_movers.csv
 
