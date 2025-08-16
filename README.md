@@ -54,19 +54,19 @@ Run the pipeline:
 python pipeline.py
 
 📊 Example Output
-Database
 
-Table: crypto_prices
-Columns: timestamp, id, symbol, name, current_price, market_cap, total_volume, price_change_24h, price_change_pct_24h
+## Database:
+- Table: crypto_prices
+- Columns: timestamp, id, symbol, name, current_price, market_cap, total_volume, price_change_24h, price_change_pct_24h
 
-Exports:
+## Exports:
+- data/exports/latest_snapshot.csv
+- data/exports/top_movers.csv
 
-data/exports/latest_snapshot.csv
-data/exports/top_movers.csv
+## ✨ Next Steps 
+- Automate with a cron job / Task Scheduler to fetch prices daily
+- Visualize with a dashboard (Streamlit, Tableau, Power BI, or Excel)
+- Add more coins or historical tracking
 
-✨ Next Steps 
-Automate with a cron job / Task Scheduler to fetch prices daily
-Visualize with a dashboard (Streamlit, Tableau, Power BI, or Excel)
-Add more coins or historical tracking
 
 👩‍💻 Built by Priscillagit as part of a portfolio of data projects.
